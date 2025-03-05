@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class StudentVoteChecker {
 
     // Method to check if the student can vote
-    public static boolean canStudentVote(int age) {
+    public static boolean canStudentVote(int age) { 
         if (age < 0) {
             return false; // Invalid age
         }
