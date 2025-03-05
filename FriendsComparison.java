@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class FriendsComparison {
 
     // Method to find the youngest friend
-    public static String findYoungest(String[] names, int[] ages) {
+    public static String findYoungest(String[] names, int[] ages) { 
         int minAge = ages[0];
         int index = 0;
         for (int i = 1; i < ages.length; i++) {
