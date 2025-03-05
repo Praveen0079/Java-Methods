@@ -6,7 +6,7 @@ public class BMICalculator {
     public static double calculateBMI(double weight, double heightCm) {
         double heightMeters = heightCm / 100; // Convert cm to meters
         return weight / (heightMeters * heightMeters);
-    }
+    } 
 
     // Method to determine BMI status
     public static String getBMIStatus(double bmi) {
