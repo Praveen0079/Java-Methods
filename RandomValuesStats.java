@@ -1,5 +1,5 @@
 import java.util.Random;
-
+ 
 public class RandomValuesStats {
     public static void main(String[] args) {
         int[] numbers = new int[5];
