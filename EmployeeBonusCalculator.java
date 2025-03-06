@@ -4,7 +4,7 @@ public class EmployeeBonusCalculator {
 
     // Method to generate random salary and years of service for 10 employees
     public static double[][] generateEmployeeData(int numEmployees) {
-        Random random = new Random();
+        Random random = new Random(); 
         double[][] employeeData = new double[numEmployees][2]; // [Salary, Years of Service]
 
         for (int i = 0; i < numEmployees; i++) {
