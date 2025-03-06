@@ -5,7 +5,7 @@ public class StudentScorecard {
 
     // Method to generate random 2-digit marks for PCM subjects
     public static int[][] generateMarks(int numStudents) {
-        Random random = new Random();
+        Random random = new Random(); 
         int[][] marks = new int[numStudents][3]; // [Physics, Chemistry, Math]
 
         for (int i = 0; i < numStudents; i++) {
