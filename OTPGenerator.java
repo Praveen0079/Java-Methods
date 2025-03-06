@@ -4,7 +4,7 @@ public class OTPGenerator {
 
     private static final SecureRandom secureRandom = new SecureRandom();
 
-    // Method to generate a 6-digit OTP securely
+    // Method to generate a 6-digit OTP securely 
     public static int generateOTP() {
         return 100000 + secureRandom.nextInt(900000);
     }
