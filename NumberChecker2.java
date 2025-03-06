@@ -5,7 +5,7 @@ public class NumberChecker2 {
     // Method to find the count of digits in the number
     public static int countDigits(int num) {
         return String.valueOf(num).length();
-    }
+    } 
 
     // Method to store the digits of the number in an array
     public static int[] getDigitsArray(int num) {
