@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class CalendarGenerator {
     
     // Array of month names
-    private static final String[] months = {
+    private static final String[] months = { 
         "January", "February", "March", "April", "May", "June",
         "July", "August", "September", "October", "November", "December"
     };
