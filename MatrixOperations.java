@@ -5,7 +5,7 @@ public class MatrixOperations {
 
     // Method to generate a random matrix
     public static int[][] generateMatrix(int rows, int cols) {
-        Random random = new Random();
+        Random random = new Random(); 
         int[][] matrix = new int[rows][cols];
 
         for (int i = 0; i < rows; i++) {
