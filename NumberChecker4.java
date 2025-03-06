@@ -11,7 +11,7 @@ class NumberChecker4 {
     }
 
     // Method to check if a number is a neon number
-    public static boolean isNeon(int num) {
+    public static boolean isNeon(int num) { 
         int square = num * num;
         int sum = 0;
         while (square > 0) {
