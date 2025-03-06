@@ -4,7 +4,7 @@ public class NumberChecker3 {
     
     public static int countDigits(int number) {
         return String.valueOf(number).length();
-    }
+    } 
     
     public static int[] getDigitsArray(int number) {
         String numStr = String.valueOf(number);
